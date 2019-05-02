@@ -29,7 +29,7 @@ public class MgmtCabInfo extends MgmtBaseEntity {
 	}
 
 	public void setCabId(Long cabId) {
-		cabId = cabId;
+		this.cabId = cabId;
 	}
 
 	public String getPlates() {
@@ -50,7 +50,7 @@ public class MgmtCabInfo extends MgmtBaseEntity {
 
 	public MgmtCabInfo(Long cabId, String plates, String driverName) {
 		super();
-		cabId = cabId;
+		this.cabId = cabId;
 		this.plates = plates;
 		this.driverName = driverName;
 	}

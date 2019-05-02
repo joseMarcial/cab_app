@@ -33,7 +33,7 @@ public class LocationHistoryRepositoryTest {
 	
 	public void init() {
 		LocationHistory lh = new LocationHistory(1L, 1L, 37.29095, -122.00172, 1556684639414L);
-		LocationHistory persistedLh = entityManager.persist(lh);
+		entityManager.persist(lh);
 		entityManager.flush();
 	}
 	
